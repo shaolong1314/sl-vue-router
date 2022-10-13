@@ -1,0 +1,19 @@
+{
+  "name": "sl-vue-router",
+  "version": "1.0.0",
+  "description": "Simple version of vue-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaolong1314/sl-vue-router.git"
+  },
+  "author": "shaolong_zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaolong1314/sl-vue-router/issues"
+  },
+  "homepage": "https://github.com/shaolong1314/sl-vue-router#readme"
+}
