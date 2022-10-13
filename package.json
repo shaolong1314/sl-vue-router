@@ -1,19 +1,32 @@
 {
   "name": "sl-vue-router",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple version of vue-router",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "sl-vue-router",
+    "sl",
+    "vue-router"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaolong1314/sl-vue-router.git"
+    "url": "git://github.com/shaolong1314/sl-vue-router.git"
   },
   "author": "shaolong_zheng",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shaolong1314/sl-vue-router/issues"
   },
-  "homepage": "https://github.com/shaolong1314/sl-vue-router#readme"
+  "homepage": "https://github.com/shaolong1314/sl-vue-router#readme",
+  "dependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
